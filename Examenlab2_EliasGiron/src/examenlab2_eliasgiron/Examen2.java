@@ -1121,8 +1121,8 @@ public class Examen2 extends javax.swing.JFrame {
     private void jb_compusensambladasMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jb_compusensambladasMouseClicked
         jd_listacomputadoras.setModal(true);
         jd_listacomputadoras.pack();
-        jd_listacomputadoras.setModal(true);
-        jd_listacomputadoras.setModal(true);
+        jd_listacomputadoras.setLocationRelativeTo(this);
+        jd_listacomputadoras.setVisible(true);
     }//GEN-LAST:event_jb_compusensambladasMouseClicked
 
     private void jb_compusensambladasActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jb_compusensambladasActionPerformed
